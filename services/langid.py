@@ -4,7 +4,7 @@ DetectorFactory.seed = 0
 
 def detect_language(text: str) -> str:
     """
-    Offline language identification (LID).
+    Offline language identification.
     For best accuracy later, you can swap to fastText LID (still offline).
     """
     try:
